@@ -15,7 +15,7 @@ In this step, we will accomplish the following:
 
 1. Open all files in the `docs` folder and keep this file open in the editor throughout this exercise.
     1.  agent mode uses `mona-high-school-fitness-tracker.md` and `octofit_story.md` as a reference to create the application
-2. Copy and paste the following prompt(s) in the GitHub Copilot Chat and select the "Agent" instead of "Ask" or "Edit" from the drop down where you are inserting the prompt.
+2. Copy and paste the following prompt(s) in the GitHub Copilot Chat and select the "Agent" instead of "Ask" or "Plan" from the drop down where you are inserting the prompt.
 
 > 🪧 **Note:** 
 - Do not change the model from GPT-4o this will be an optional activity at the end of the course.
@@ -29,11 +29,11 @@ In this step, we will accomplish the following:
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. Let's setup codespace for the octofit-tracker frontend React framework.
+> Based on the custom instructions file (.github/copilot-instructions.md) created in Step 2, and use octofit as the name for mergington's high schools app. Let's setup codespace for the octofit-tracker frontend React framework.
 >
 > 1. Make the octofit-tracker/frontend directory.
 > 2. Create the react app in the octofit-tracker/frontend directory.
-> 3. Install stable versions of React framework and modules based on docs/mona-high-school-fitness-tracker.md.
+> 3. Install stable versions of React framework and modules based on the custom instructions file (.github/copilot-instructions.md).
 > 4. Install stable bootstrap in the octofit-tracker/frontend directory.
 > 5. Import bootstrap css in the src/index.js file.
 > 6. Install the stable react-router-dom in the octofit-tracker/frontend directory.
@@ -52,7 +52,7 @@ In this step, we will accomplish the following:
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. Let's update the octofit-tracker frontend React components.
+> Based on the custom instructions file (.github/copilot-instructions.md) created in Step 2, and use octofit as the name for mergington's high schools app. Let's update the octofit-tracker frontend React components.
 >
 > - Update the following components to include the React framework to point to the backend API:
 >   - src/App.js
@@ -87,7 +87,7 @@ Now, let's actually try running the react application! In the left sidebar, sele
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. Let's style this like App.css and make it look nice.
+> Based on the custom instructions file (.github/copilot-instructions.md) created in Step 2, and use octofit as the name for mergington's high schools app. Let's style this like App.css and make it look nice.
 >
 > - Let's make the App.js and all components javascript files in the app are consistent with the following:
 >   - Use bootstrap tables for the data in all javascript components.
@@ -107,7 +107,7 @@ Now, let's actually try running the react application! In the left sidebar, sele
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. Let's style this like App.css and make it look nice.
+> Based on the custom instructions file (.github/copilot-instructions.md) created in Step 2, and use octofit as the name for mergington's high schools app. Let's style this like App.css and make it look nice.
 > 
 > -  Edit the App.css file to do the following:
 >   - Add some color to the background.
