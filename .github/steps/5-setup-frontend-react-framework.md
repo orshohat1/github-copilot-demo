@@ -80,8 +80,6 @@ In this step, we will accomplish the following:
 
 Now, let's actually try running the react application! In the left sidebar, select the `Run and Debug` tab and then press the **Start Debugging** icon.
 
-<img src="https://github.com/user-attachments/assets/8ab08e4e-539a-4ca9-8270-be4b1f0df176"  width=30% height=30%>
-
 ### :keyboard: Activity: Let's add some formatting, structuring, and styling to the octofit tracker app
 
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
