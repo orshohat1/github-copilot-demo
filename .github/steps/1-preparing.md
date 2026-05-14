@@ -40,9 +40,9 @@ Monitors the correctness of code edits and terminal command output and iterates 
    - The lower panel (Ctrl+J) shows the debugger output, allows running terminal commands, and allows configuring the web service ports.
    - Our docs folder contains the another sample application repository that will give Copilot agent mode context to build your application. More on that in the next steps!
 
-1. At the top of VS Code, locate and click the Copilot icon to open a Copilot Chat panel.
+1. At the top of VS Code, locate and click the Chat icon to the left of the search bar to open a Copilot Chat panel.
 
-   <img width="150" alt="image" src="https://github.com/user-attachments/assets/5e64db46-95cb-415d-badc-b6b8677f10c1" />
+   <img width="550" alt="image" src="../../assets/copilot-icon.png" />
 
 1. If this is your first, time using GitHub Copilot, you will have to accept the usage terms to continue.
     - Click the **Accept** button to continue.
@@ -58,7 +58,7 @@ Great work! Now that we are familiar with the app and we know it works, let's as
 1. Open the GitHub Copilot Chat window if not already open. 
 2. Copy and paste the following prompt in the GitHub Copilot Chat and select the **Agent** instead of **Ask** or **Edit** from the drop down where you are inserting the prompt.
 
-   <img src="https://github.com/user-attachments/assets/e172f5c0-bc2a-45a9-a301-9af8bfbd6a2e" width=30% height=30%>
+   <img src="../../assets/copilot-chat.png" width=40% height=40%>
 
 
 > 🪧 **Note:** 
@@ -76,8 +76,6 @@ Great work! Now that we are familiar with the app and we know it works, let's as
 
 
    Copilot agent mode will respond and ask if you if you want to enable it to run the command. Respond with **Yes**</br>
-
-   <img src=https://github.com/user-attachments/assets/8dafaa5f-80db-41ea-a189-b5d603c11d63 width=40% height=40%>
 
 
 1. Now that we are happy with the command, press the `Continue` button to let Copilot agent mode run it for us. No need to copy and paste!

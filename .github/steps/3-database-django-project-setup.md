@@ -10,7 +10,7 @@ In this step, we will accomplish the following:
 
 1. Open all files in the `docs` folder and keep this file open in the editor throughout this exercise.
     1.  agent mode uses `mona-high-school-fitness-tracker.md` and `octofit_story.md` as a reference to create the application
-2. Copy and paste the following prompt(s) in the GitHub Copilot Chat and select the "Agent" instead of "Ask" or "Edit" from the drop down where you are inserting the prompt.
+2. Copy and paste the following prompt(s) in the GitHub Copilot Chat and select the "Agent" instead of "Ask" or "Plan" from the drop down where you are inserting the prompt.
 
 > 🪧 **Note:** 
 - Do not change the model from GPT-4o this will be an optional activity at the end of the course.
@@ -19,12 +19,29 @@ In this step, we will accomplish the following:
 - Keep files created and updated by Copilot agent mode until it is finished.
 - Agent mode has the ability to evaluate your code base and execute commands and add/refactor/delete parts of your code base and automatically self heal if it or you makes a mistake in the process.
 
+### :keyboard: Activity: Install the Context7 MCP server and enable tools
+
+Before setting up Django, we'll install the Context7 MCP server so Copilot agent mode can fetch up-to-date documentation for libraries like Django, Django REST Framework, and djongo directly in chat.
+
+1. Open the **Extensions** view in VS Code (`Ctrl+Shift+X`).
+2. Search for **"Context7 MCP"** in the marketplace.
+3. Click **Install** on the **Context7 MCP** extension.
+4. Once installed, VS Code will automatically configure and start the Context7 MCP server.
+5. To verify it is running, open the Command Palette (`Ctrl+Shift+P`), run **"MCP: List Servers"**, and confirm **context7** shows a green status.
+
+> 🪧 **Note: Enabling MCP tools in agent mode**
+> - When you use agent mode, Copilot may ask for permission to use MCP tools. Click **"Allow"** or **"Allow for Workspace"** when prompted.
+> - You can also manage which tools are enabled by clicking the **🔧 tools icon** at the bottom of the Copilot Chat panel. From there you can toggle individual MCP tools on or off.
+> - Make sure the Context7 tools (e.g., `resolve-library-id`, `get-library-docs`) are enabled so Copilot can look up the latest documentation while helping you build the app.
+
+> ❕ **Important:** Make sure the Context7 MCP server is running and tools are enabled before proceeding to the next activity.
+
 ### :keyboard: Activity: Setup the Python Django project/app
 
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app,  > let's setup the Python Django project/app and run the server.
+> Based on the custom instructions file (.github/copilot-instructions.md) created in Step 2, and use octofit as the name for mergington's high schools app,  > let's setup the Python Django project/app and run the server.
 >
 > 1. The octofit-tracker/backend directory will store the django project and app with the name octofit-tracker.
 > 2. Setup the additional configuration for the django project/app with the name octofit-tracker.
@@ -43,7 +60,7 @@ In this step, we will accomplish the following:
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's initialize the octofit_db database.
+> Based on the custom instructions file (.github/copilot-instructions.md) created in Step 2, and use octofit as the name for Merington's high school's app. Let's initialize the octofit_db database.
 >
 > 1. Initialize the mongo octofit_db database.
 > 2. Create a correct table structure for users, teams, activity, leaderboard, and workouts collections.
@@ -64,7 +81,7 @@ In this step, we will accomplish the following:
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's update the octofit-tracker/backend/octofit_tracker app files.
+> Based on the custom instructions file (.github/copilot-instructions.md) created in Step 2, and use octofit as the name for Merington's high school's app. Let's update the octofit-tracker/backend/octofit_tracker app files.
 >
 > 1. Update the octofit-tracker/backend/octofit_tracker/settings.py file to include the MongoDB database connection.
 > 2. Update the octofit-tracker/backend/octofit_tracker/models.py file to include the models for users, teams, activity, leaderboard, and workouts collections.
@@ -88,11 +105,11 @@ In this step, we will accomplish the following:
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's populate the octofit_db database with test data. Use the same data from docs/mona-high-school-fitness-tracker.md file.
+> Based on the custom instructions file (.github/copilot-instructions.md) created in Step 2, and use octofit as the name for Merington's high school's app. Let's populate the octofit_db database with test data. Use the same data from the custom instructions file.
 > 
 > 1. Create a test data file in the octofit-tracker/backend/octofit_tracker directory.
 > 2. Run makemigrations and migrate the database in a Python virtual environment.
-> 3. Populate the octofit_db database with test data for users, teams, activities, leaderboard, and workouts collections based on test data in docs/mona-high-school-fitness-tracker.md octofit-tracker/backend/octofit_tracker/management/commands/populate_db.py.
+> 3. Populate the octofit_db database with test data for users, teams, activities, leaderboard, and workouts collections based on test data in the custom instructions file (.github/copilot-instructions.md) octofit-tracker/backend/octofit_tracker/management/commands/populate_db.py.
 > 4. Verify the test data is populated in the octofit_db database.
 > 
 > Don't proceed with the next activity until all of these steps are completed.

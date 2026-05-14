@@ -5,12 +5,13 @@ In this step, we will accomplish the following:
 - Create the octofit-tracker application directory structure.
 - Create the octofit-tracker/backend and octofit-tracker/frontend directories.
 - Create the octofit-tracker/backend/requirements.txt file.
+- Create a custom instructions file (instructions.md) using the skill /create-instructions.
 
 1. Open all files in the `docs` folder and keep this file open in the editor throughout this exercise.
     1.  agent mode uses `mona-high-school-fitness-tracker.md` and `octofit_story.md` as a reference to create the application
-2. Copy and paste the following prompt(s) in the GitHub Copilot Chat and select the "Agent" instead of "Ask" or "Edit" from the drop down where you are inserting the prompt.
+2. Copy and paste the following prompt(s) in the GitHub Copilot Chat and select the "Agent" instead of "Ask" or "Plan" from the drop down where you are inserting the prompt.
 
-<img src="https://github.com/user-attachments/assets/e172f5c0-bc2a-45a9-a301-9af8bfbd6a2e" width=40% height=40%>
+<img src="../../assets/copilot-chat.png" width=40% height=40%>
 
 > 🪧 **Note:** 
 - Do not change the model from GPT-4o this will be an optional activity at the end of the course.
@@ -28,8 +29,9 @@ In this step, we will accomplish the following:
 > Use docs/mona-high-school-fitness-tracker.md as a guide for the project structure and requirements.
 >
 > 1. Understand the story of creating the fitness application from the docs/octofit_story.md file.
-> 2. Create the initial directory structure for the octofit-tracker application octofit-tracker/backend, octofit-tracker/frontend.
-> 3. Setup the backend python virtual environment, octofit-tracker/backend/requirements.txt based on docs/mona-high-school-fitness-tracker.md, and install required packages.
+> 2. Create a custom instructions file (.github/copilot-instructions.md) using the /create-instructions skill to guide Copilot throughout this project. Make sure to reference the docs/mona-high-school-fitness-tracker.md and docs/octofit_story.md files in the instructions.
+> 3. Create the initial directory structure for the octofit-tracker application octofit-tracker/backend, octofit-tracker/frontend.
+> 4. Setup the backend python virtual environment, octofit-tracker/backend/requirements.txt based on docs/mona-high-school-fitness-tracker.md, and install required packages.
 >
 > Don't proceed with the next activity until all of these steps are completed.
 >```
@@ -42,7 +44,7 @@ In this step, we will accomplish the following:
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's install MongoDB.
+> Based on the custom instructions file (.github/copilot-instructions.md) created in the previous activity, and use octofit as the name for mergington's high schools app. > Let's install MongoDB.
 >
 > 1. Install MongoDB and make sure the command is complete.
 >
@@ -58,7 +60,7 @@ In this step, we will accomplish the following:
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
 >
 > ```prompt
-> Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's start and verify MongoDB is running.
+> Based on the custom instructions file (.github/copilot-instructions.md) created in Step 2, and use octofit as the name for mergington's high schools app. > Let's start and verify MongoDB is running.
 >
 > 1. Start the MongoDB service.
 > 2. Verify the MongoDB service running.
