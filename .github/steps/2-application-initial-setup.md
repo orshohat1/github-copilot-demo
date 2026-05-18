@@ -22,9 +22,6 @@ In this step, we will accomplish the following:
 
 ### :keyboard: Activity: Prompt for GitHub Copilot in agent mode to start the creation of our application
 
-> ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
->
-> ```prompt
 > Let's take the following step by step and generate instructions in this order and execute the commands.
 > Use docs/mona-high-school-fitness-tracker.md as a guide for the project structure and requirements.
 >
@@ -34,7 +31,7 @@ In this step, we will accomplish the following:
 > 4. Setup the backend python virtual environment, octofit-tracker/backend/requirements.txt based on docs/mona-high-school-fitness-tracker.md, and install required packages.
 >
 > Don't proceed with the next activity until all of these steps are completed.
->```
+
 >
 
 > ❕ **Important:** Once the above activity installs all the required packages, proceed to the next activity.
