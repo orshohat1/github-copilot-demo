@@ -28,7 +28,7 @@ Use docs/mona-high-school-fitness-tracker.md as a guide for the project structur
 1. Understand the story of creating the fitness application from the docs/octofit_story.md file.
 2. Create a custom instructions file (.github/copilot-instructions.md) using the /create-instructions skill to guide Copilot throughout this project. Make sure to reference the docs/mona-high-school-fitness-tracker.md and docs/octofit_story.md files in the instructions.
 3. Create the initial directory structure for the octofit-tracker application octofit-tracker/backend, octofit-tracker/frontend.
-4. Setup the backend python virtual environment, octofit-tracker/backend/requirements.txt based on docs/mona-high-school-fitness-tracker.md, and install required packages.
+4. Setup the backend python virtual environment, octofit-tracker/backend/requirements.txt based on the instructions, and install required packages.
 
  Don't proceed with the next activity until all of these steps are completed.
 
