@@ -16,6 +16,14 @@ Monitors the correctness of code edits and terminal command output and iterates 
 
 > 💡 **Tip:** You can learn more about GitHub Copilot agent mode in the [Use agent mode documentation](https://code.visualstudio.com/docs/copilot/copilot-edits#_use-agent-mode-preview).
 
+### :keyboard: Activity: Fork the repository and set up your development environment
+
+Before launching your environment, you need your own copy of the repository to save your work.
+
+1. Scroll to the top of this repository page, locate the **Fork** button in the top-right corner, and click it.
+2. Under **Owner**, select your personal GitHub account. Leave the repository name as is, ensure "Copy the `main` branch only" is checked, and click **Create fork**.
+3. Once the fork is created, you will be redirected to your personal copy of the repository.
+
 ### :keyboard: Activity: Getting to know your GitHub Copilot agent mode development environment
 
 1. Right-click the below button to open the **Create Codespace** page in a new tab.
@@ -30,9 +38,6 @@ Monitors the correctness of code edits and terminal command output and iterates 
    - ✅ Your copy: `/{{{full_repo_name}}}`
    - ❌ Original: `/skills/build-applications-w-copilot-agent-mode`
 
-1. Wait a moment for Visual Studio Code to load.
-    1. You may need to switch to VS Code insiders edition in the codespace since agent mode was released on 4/4 as a phased rollout to users.
-   <img width="323" alt="vscode-insiders-light" src="https://github.com/user-attachments/assets/8ff8868b-9120-4055-8449-175e85552ba2" />
 
 1. Before we continue let's take a moment to familiarize ourselves with the project folder.
 
