@@ -43,6 +43,7 @@ Use docs/mona-high-school-fitness-tracker.md as a guide for the project structur
 > Based on the custom instructions file (.github/copilot-instructions.md) created in the previous activity, and use octofit as the name for mergington's high schools app. > Let's install MongoDB.
 >
 > 1. Install MongoDB and make sure the command is complete.
+> 2. install mongosh to invoke shell commands.  afterwards make sure it works.
 >
 > Don't proceed with the next activity until all of these steps are completed.
 >```
