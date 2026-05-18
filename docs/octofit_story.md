@@ -74,16 +74,6 @@ In this workshop, you'll:
 
 ### GitHub Copilot Chat
 
-These are the current models supported for GitHub Copilot Chat.
-
-- Claude Sonnet 3.5 (Preview)
-- Claude Sonnet 3.7 (Preview)
-- Claude Sonnet 3.7 Thinking (Preview)
-- Gemini 2.0 Flash (Preview)
-- GPT-4o
-- o1 (Preview)
-- o3-mini (Preview)
-
 #### [LLM models explained](https://docs.github.com/en/copilot/using-github-copilot/ai-models/changing-the-ai-model-for-copilot-chat#ai-models-for-copilot-chat-1)
 
 ![GitHub Copilot Chat models](https://github.com/user-attachments/assets/f2f8d0bd-366b-4ecf-b88d-d092ae7b8b10)
